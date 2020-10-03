@@ -2693,6 +2693,7 @@ void AssemblyWriter::printModule(const Module *M) {
 
   if (ShouldPreserveUseListOrder)
     UseListOrders = predictUseListOrder(M);
+  Out << "; EXTRA : Hi. This is Shobhit Sinha from CS738. Printing this line as part of Prog Assgn1 . \n";
 
   if (!M->getModuleIdentifier().empty() &&
       // Don't print the ID if it will start a new line (which would
